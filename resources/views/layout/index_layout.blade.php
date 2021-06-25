@@ -33,30 +33,34 @@
     <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
     <!-- Start header section -->
     <header id="aa-header">
-        <!-- start header top  -->
-        <div class="aa-header-top">
-            <div class="container maju">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="aa-header-top-area">
-                            <!-- start header top left -->
-                            <div class="aa-header-top-left">
-                                <span><a href="#">Back to Geniebook</a></span>
-                            </div>
-                            <!-- / header top left -->
-                            <div class="aa-header-top-right">
-                                <ul class="aa-head-top-nav-right">
-                                    <li><a href="#">My Order</a></li>
-                                    <li><a href="#">Wishlist</a></li>
-                                    <li><a href="" data-toggle="modal" data-target="#">Login</a></li>
-                                </ul>
-                            </div>
+        <section id="menu">
+            <div class="container">
+                <div class="menu-area">
+                    <!-- Navbar -->
+                    <div class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
                         </div>
+                        <div class="navbar-collapse collapse">
+                            <!-- Left nav -->
+                            <ul class="nav navbar-nav">
+                                <li class="kiri"><a href="#">Back to Geniebook</a></li>
+                                <li class="kanan"><a href="#">My Order</a></li>
+                                <li class="kanan"><a href="#">Wishlist</a></li>
+                                <li class="kanan"><a href="#">Login</a></li>
+                            </ul>
+                        </div>
+                        <!--/.nav-collapse -->
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- / header top  -->
+        </section>
 
         <!-- start header bottom  -->
         <div class="aa-header-bottom">
@@ -73,32 +77,33 @@
                             <!-- cart box -->
                             <div class="aa-cartbox">
                                 <a class="aa-cart-link" href="#">
-                                   <img class="ico-shop" src="https://bubblestore.geniebook.com/_nuxt/img/bg-cart.3201e64.png">
+                                    <img class="ico-shop"
+                                        src="https://bubblestore.geniebook.com/_nuxt/img/bg-cart.3201e64.png">
 
                                     <span class="aa-cart-notify">0</span>
                                 </a>
                                 <div class="aa-cartbox-summary">
-                                  <div class="row">
-                                      <div class="col-md-6">
-                                          <h6 style="margin-top: 5px;">SUBTOTAL:</h6>
-                                      </div>
-                                      <div class="col-md-6 kananin">
-                                        <span class="ico-bulet"><span class="fa fa-circle"></span></span>
-                                        <span><b> 0 </b></span>
-                                      </div>
-                                  </div>
-                                <div class="row mart-2em">
-                                    <div class="col-md-6 padkanan5 d-grid">
-                                    <button type="button" class="btn-hoper"><small>VIEW CHART</small>
-                                        &nbsp;
-                                        <span class="s10"><span class="fa fa-play"></span></span></button>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 style="margin-top: 5px;">SUBTOTAL:</h6>
+                                        </div>
+                                        <div class="col-md-6 kananin">
+                                            <span class="ico-bulet"><span class="fa fa-circle"></span></span>
+                                            <span><b> 0 </b></span>
+                                        </div>
                                     </div>
-                                    <div class="col-md-6 padkiri5 d-grid">
-                                        <button type="button" class="btn-hoper"><small>CHECKOUT</small>
-                                            &nbsp;
-                                            <span class="s10"><span class="fa fa-play"></span></span></button>
+                                    <div class="row mart-2em">
+                                        <div class="col-md-6 d-grid">
+                                            <button type="button" class="btn-hoper"><small>VIEW CHART</small>
+                                                &nbsp;
+                                                <span class="s10"><span class="fa fa-play"></span></span></button>
+                                        </div>
+                                        <div class="col-md-6 d-grid">
+                                            <button type="button" class="btn-hoper btn-cekot"><small>CHECKOUT</small>
+                                                &nbsp;
+                                                <span class="s10"><span class="fa fa-play"></span></span></button>
+                                        </div>
                                     </div>
-                                </div>
                                 </div>
                             </div>
                             <!-- / cart box -->
@@ -106,10 +111,10 @@
                             <div class="aa-search-box mrt-2">
                                 <form action="">
                                     <div class="row">
-                                        <div class="col-md-6 pad-0">
+                                        <div class="col-md-6 col-sm-11 pad-0">
                                             <input type="text" name="" id="" placeholder="Search for item ...">
                                         </div>
-                                        <div class="col-md-5 pad-0">
+                                        <div class="col-md-5 pad-0 hide-selectdown">
                                             <select class="form-select select-cus">
                                                 <option value="0" selected="selected" data-v-c3fc83d0="">All Categories
                                                 </option>
@@ -266,6 +271,8 @@
                                                     Yoga Mats
                                                 </option>
                                             </select>
+                                        </div>
+                                        <div class="col-md col-sm">
                                             <button type="submit"><span class="fa fa-search"></span></button>
                                         </div>
                                     </div>
@@ -285,62 +292,63 @@
     <!-- footer -->
     <footer id="aa-footer">
         <div class="s12">
-        <!-- footer bottom -->
-        <div class="aa-footer-top ">
-            <div class="container maju">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h5 class="cabutua">POPULAR CATEGORIES</h5>
-                        <div class="aa-footer-top-area txtdecofooter">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="aa-footer-widget">
+            <!-- footer bottom -->
+            <div class="aa-footer-top ">
+                <div class="container maju">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5 class="cabutua footer-popular">POPULAR CATEGORIES</h5>
+                            <div class="aa-footer-top-area txtdecofooter">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="aa-footer-widget">
 
-                                        <ul class="aa-footer-nav">
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">Our Services</a></li>
-                                            <li><a href="#">Our Products</a></li>
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="aa-footer-widget">
-                                        <div class="aa-footer-widget">
                                             <ul class="aa-footer-nav">
-                                                <li><a href="#">Delivery</a></li>
-                                                <li><a href="#">Returns</a></li>
-                                                <li><a href="#">Services</a></li>
-                                                <li><a href="#">Discount</a></li>
-                                                <li><a href="#">Special Offer</a></li>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">Our Services</a></li>
+                                                <li><a href="#">Our Products</a></li>
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Contact Us</a></li>
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="aa-footer-widget">
+                                    <div class="col-md-3 col-sm-6">
                                         <div class="aa-footer-widget">
-                                            <ul class="aa-footer-nav">
-                                                <li><a href="#">Site Map</a></li>
-                                                <li><a href="#">Search</a></li>
-                                                <li><a href="#">Advanced Search</a></li>
-                                                <li><a href="#">Suppliers</a></li>
-                                                <li><a href="#">FAQ</a></li>
-                                            </ul>
+                                            <div class="aa-footer-widget">
+                                                <ul class="aa-footer-nav">
+                                                    <li><a href="#">Delivery</a></li>
+                                                    <li><a href="#">Returns</a></li>
+                                                    <li><a href="#">Services</a></li>
+                                                    <li><a href="#">Discount</a></li>
+                                                    <li><a href="#">Special Offer</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="aa-footer-widget">
+                                    <div class="col-md-3 col-sm-6">
                                         <div class="aa-footer-widget">
-                                            <ul class="aa-footer-nav">
-                                                <li><a href="#">Site Map</a></li>
-                                                <li><a href="#">Search</a></li>
-                                                <li><a href="#">Advanced Search</a></li>
-                                                <li><a href="#">Suppliers</a></li>
-                                                <li><a href="#">FAQ</a></li>
-                                            </ul>
+                                            <div class="aa-footer-widget">
+                                                <ul class="aa-footer-nav">
+                                                    <li><a href="#">Site Map</a></li>
+                                                    <li><a href="#">Search</a></li>
+                                                    <li><a href="#">Advanced Search</a></li>
+                                                    <li><a href="#">Suppliers</a></li>
+                                                    <li><a href="#">FAQ</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="aa-footer-widget">
+                                            <div class="aa-footer-widget">
+                                                <ul class="aa-footer-nav">
+                                                    <li><a href="#">Site Map</a></li>
+                                                    <li><a href="#">Search</a></li>
+                                                    <li><a href="#">Advanced Search</a></li>
+                                                    <li><a href="#">Suppliers</a></li>
+                                                    <li><a href="#">FAQ</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -348,39 +356,44 @@
                         </div>
                     </div>
                 </div>
+                <div class="centerin">
+                    <button type="button" class="btn-hoper2"><small>VIEW ALL CATEGORIES</small></button>
+                </div>
             </div>
-            <div class="centerin">
-                <button type="button" class="btn-hoper2"><small>VIEW ALL CATEGORIES</small></button>
-            </div>
-        </div>
 
-        <!-- footer-bottom -->
-        <div class="aa-footer-bottom">
-            <div class="container maju">
-                <div class="row centerlah">
-                    <div class="col-md-12">
-                        <div class="copy-right-inner">
-                            <div class="copy-right-group">
-                                <div class="footer_menu">
-                                    <a href="http://feedback.geniebook.com/" target="_blank">Help</a> <span class="line">|</span>
-                                    <a href="http://feedback.geniebook.com/" target="_blank">Terms & Conditions</a> <span class="line">|</span>
-                                    <a href="http://feedback.geniebook.com/" target="_blank">FAQ</a> <span class="line">|</span>
-                                    <a href="http://feedback.geniebook.com/" target="_blank">Contact</a> <span class="line">|</span>
-                                </div>
+            <!-- footer-bottom -->
+            <div class="aa-footer-bottom">
+                <div class="container maju">
+                    <div class="row centerlah">
+                        <div class="col-md-12">
+                            <div class="copy-right-inner">
+                                <div class="copy-right-group">
+                                    <div class="footer_menu">
+                                        <a href="http://feedback.geniebook.com/" target="_blank">Help</a> <span
+                                            class="line">|</span>
+                                        <a href="http://feedback.geniebook.com/" target="_blank">Terms & Conditions</a>
+                                        <span class="line">|</span>
+                                        <a href="http://feedback.geniebook.com/" target="_blank">FAQ</a> <span
+                                            class="line">|</span>
+                                        <a href="http://feedback.geniebook.com/" target="_blank">Contact</a> <span
+                                            class="line">|</span>
+                                    </div>
 
-                                <div class="footer_copyright">
-                                    Copyright © 2021
-                                    <a href="https://geniebook.com/" target="_blank">Geniebook</a> <a href="/faq" class=""></a>
-                                    . All Rights Reserved
+                                    <div class="footer_copyright">
+                                        Copyright © 2021
+                                        <a href="https://geniebook.com/" target="_blank">Geniebook</a> <a href="/faq"
+                                            class=""></a>
+                                        . All Rights Reserved
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </div></footer>
+        </div>
+    </footer>
     <!-- / footer -->
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
